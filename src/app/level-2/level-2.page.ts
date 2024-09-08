@@ -7,28 +7,28 @@ import { Component } from '@angular/core';
 })
 export class Level2Page {
   // Initial image sources for each button
-  imageSrc1 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2 (1).png';
-  imageSrc2 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-1 (1).png';
-  imageSrc3 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-2 (1).png';
-  imageSrc4 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-3 (1).png';
-  imageSrc5 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-4 (1).png';
-  imageSrc6 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-5 (1).png';
-  imageSrc7 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-6 (1).png';
-  imageSrc8 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-7 (1).png';
-  imageSrc9 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-8 (1).png';
-  imageSrc10 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-9 (1).png';
+  imageSrc1 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2 (1).png';
+  imageSrc2 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-1 (1).png';
+  imageSrc3 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-2 (1).png';
+  imageSrc4 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-3 (1).png';
+  imageSrc5 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-4 (1).png';
+  imageSrc6 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-5 (1).png';
+  imageSrc7 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-6 (1).png';
+  imageSrc8 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-7 (1).png';
+  imageSrc9 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-8 (1).png';
+  imageSrc10 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2-9 (1).png';
 
   // New images for the buttons when clicked
-  newImageSrc1 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2 (1).png';
-  newImageSrc2 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 39 (1).png';
-  newImageSrc3 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 40 (1).png';
-  newImageSrc4 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 41 (1).png';
-  newImageSrc5 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 42 (1).png';
-  newImageSrc6 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 48 (1).png';
-  newImageSrc7 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 44 (1).png';
-  newImageSrc8 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 45 (1).png';
-  newImageSrc9 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 46 (1).png';
-  newImageSrc10 = '../../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 47 (1).png';
+  newImageSrc1 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/2 (1).png';
+  newImageSrc2 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 39 (1).png';
+  newImageSrc3 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 40 (1).png';
+  newImageSrc4 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 41 (1).png';
+  newImageSrc5 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 42 (1).png';
+  newImageSrc6 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 48 (1).png';
+  newImageSrc7 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 44 (1).png';
+  newImageSrc8 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 45 (1).png';
+  newImageSrc9 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 46 (1).png';
+  newImageSrc10 = '../assets/AlgebraQuest_Asset/lvl-buttons/lvl2-buttons/Group 47 (1).png';
 
   // Change image based on button clicked
   changeImage(event: Event, buttonId: number) {

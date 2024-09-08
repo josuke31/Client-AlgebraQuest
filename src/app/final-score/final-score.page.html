@@ -1,15 +1,17 @@
 <ion-content [fullscreen]="true" class="main-page">
   <audio id="background-music" autoplay>
-    <source src="assets\audio\you-win.mp3" type="audio/mpeg" />
+    <source src="assets\audio\you-win.mp3" type="audio/mpeg"/>
   </audio>
   <div class="final-score-container">
     <h1>Congratulations!</h1>
     <p>Your final score is: {{ finalScore }}</p>
     <ion-button (click)="resetGame()" routerLink="/landing-page" (click)="playButton()"
-      >Play Again</ion-button
+    >Play Again
+    </ion-button
     >
     <ion-button routerLink="/landing-page" (click)="playButton()" (click)="resetGame()"
-      >Next Level</ion-button
+    >Next Level
+    </ion-button
     >
   </div>
 </ion-content>
